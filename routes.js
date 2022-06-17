@@ -4,6 +4,7 @@ const homeController = require('./src/controllers/homeController');
 
 
 route.get('/', homeController.paginaInicial);
+route.post('/', homeController.trataPost);
 
 
 
